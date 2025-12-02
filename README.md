@@ -1,9 +1,9 @@
-###🏠 Airbnb Price Prediction
+## 🏠 Airbnb Price Prediction
 
-📋 Project Overview
+### 📋 Project Overview
 Machine Learning system to predict Airbnb rental prices using property features, amenities, and location data. Built during Data Science internship at YBI Foundation.
 
-🚀 Quick Start
+### 🚀 Quick Start
 Run in Google Colab
 https://colab.research.google.com/assets/colab-badge.svg
 
@@ -12,7 +12,7 @@ bash
 git clone https://github.com/nitinjha607/airbnb-price-prediction.git
 cd airbnb-price-prediction
 jupyter notebook airbnb_price_prediction.ipynb
-🛠️ Technologies Used
+### 🛠️ Technologies Used
 Python: Pandas, NumPy, Scikit-learn, XGBoost
 
 Visualization: Matplotlib, Seaborn
@@ -21,7 +21,7 @@ Web Framework: Flask
 
 Tools: Google Colab, Git, GitHub
 
-📊 Model Performance
+### 📊 Model Performance
 Algorithm Comparison
 Model	R² Score	MAE ($)	Training Time
 XGBoost	0.87	23.45	127s
@@ -37,7 +37,7 @@ Amenity Score (15.6%)
 
 Host Experience (8.9%)
 
-🔧 Key Features
+### 🔧 Key Features
 Data Pipeline: Cleaning, preprocessing, feature engineering
 
 Multiple Algorithms: Linear Regression, Decision Trees, Random Forest, XGBoost
@@ -46,14 +46,14 @@ Web Deployment: Flask application with API
 
 Business Insights: Pricing factors and recommendations
 
-💼 Business Impact
+### 💼 Business Impact
 15-25% potential revenue optimization for hosts
 
 87% prediction accuracy (R² Score)
 
 $23.45 average prediction error (MAE)
 
-🎯 Usage Examples
+### 🎯 Usage Examples
 Make Predictions
 python
 from models.predictor import PricePredictor
@@ -65,7 +65,7 @@ price = predictor.predict({
     'accommodates': 4,
     'neighborhood': 'Manhattan'
 })
-📈 Results Visualization
+### 📈 Results Visualization
 Price distribution analysis
 
 Feature importance charts
@@ -74,7 +74,7 @@ Model comparison plots
 
 Prediction accuracy visualizations
 
-🤝 Contributing
+### 🤝 Contributing
 Fork the repository
 
 Create feature branch (git checkout -b feature/AmazingFeature)
@@ -85,17 +85,17 @@ Push to branch (git push origin feature/AmazingFeature)
 
 Open Pull Request
 
-📄 License
+### 📄 License
 Distributed under MIT License. See LICENSE for more information.
 
-👨‍💻 Author
+### 👨‍💻 Author
 Nitin Jha - Data Science Intern at YBI Foundation
 
 GitHub: @YOUR_USERNAME
 
 Email: nitingjha075@gmail.com
 
-🙏 Acknowledgments
+### 🙏 Acknowledgments
 Dr. Alok Yadav (Mentor, YBI Foundation)
 
 YBI Foundation Team
