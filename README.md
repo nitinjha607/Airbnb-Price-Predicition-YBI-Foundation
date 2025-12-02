@@ -1,4 +1,4 @@
-🏠 Airbnb Price Prediction
+###🏠 Airbnb Price Prediction
 
 📋 Project Overview
 Machine Learning system to predict Airbnb rental prices using property features, amenities, and location data. Built during Data Science internship at YBI Foundation.
