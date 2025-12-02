@@ -9,9 +9,8 @@ https://colab.research.google.com/assets/colab-badge.svg
 
 Local Installation
 bash
-git clone https://github.com/YOUR_USERNAME/airbnb-price-prediction.git
+git clone https://github.com/nitinjha607/airbnb-price-prediction.git
 cd airbnb-price-prediction
-pip install -r requirements.txt
 jupyter notebook airbnb_price_prediction.ipynb
 🛠️ Technologies Used
 Python: Pandas, NumPy, Scikit-learn, XGBoost
@@ -66,12 +65,6 @@ price = predictor.predict({
     'accommodates': 4,
     'neighborhood': 'Manhattan'
 })
-Run Web App
-bash
-cd app
-pip install -r requirements.txt
-python app.py
-# Open: http://localhost:5000
 📈 Results Visualization
 Price distribution analysis
 
